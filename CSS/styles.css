@@ -1,8 +1,46 @@
 
 body {
-  background-color:grey;
-  
+  background-color:black;
+
 }
 h2{
-  background-color: pink;
+  background-color:pink;
+    text-align: left;
+    padding: 20px;
+}
+
+.design {
+  background-color: lightgrey;
+    width: 300px;
+    border: 25px solid pink;
+    padding: 25px;
+    margin: 25px;
+
+}
+h1 {
+  background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+
+
+}
+ul {
+  background-color: lightgrey;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
