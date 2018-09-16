@@ -30,7 +30,7 @@ CSS3
 Git & GitHub
 Javascript
 ### Support and contact details
-email:joie2mumo@gil.com
+email:*****************
 
 
 ### Link to Live Site on Github Pages
