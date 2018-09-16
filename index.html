@@ -8,18 +8,24 @@
 </head>
 <body>
   <h1>Triangle Tracker</h1>
+  <script src="js/scripts.js"></script>
+
   <h2>Find out the type of triangle</h2>
 
-<form id="triangle">
-        <label for="sideA">Side A</label>
-        <input id="sideA" type="text">
-        <label for="sideB">Side B</label>
-        <input id="sideB" type="text">
-        <label for="sideC">Side C</label>
-        <input id="sideC" type="text">
 
-        <button type="submit" class="btn">Calculate my Triangle</button>
-      </form>
+  <form id="values" action="/action_page.php">
+    Side A: <input type="text" side="sideA"><br>
+    Side B: <input type="text" side="sideB"><br>
+    Side C: <input type="text" side="sideC"><br><br>
+    <input type="button" onclick="myFunction()" value="Submit">
+  </form>
+
+  <script>
+  function myFunction() {
+      document.getElementById("values").submit();
+  }
+  </script>
+
 
 
 
