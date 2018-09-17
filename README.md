@@ -31,7 +31,7 @@ no known bugs.
 * Javascript
 
 ### Support and contact details
-email:*****************
+Unavailable
 
 
 ### Link to Live Site on Github Pages
