@@ -5,18 +5,18 @@ var triangleTracker = function(sideA, sideB, sideC) {
   var sideC=parseInt(document.getElementById("sideC").value;
 
   if (sideA==0 || sideB==0 || sideC==0) {
-  ("This is not a triangle")
+alert  ("This is not a triangle")
 
   }
   else if (sideA==sideB==sideC) {
-  ("This is an equilateral triangle")
+  alert("This is an equilateral triangle")
   }
 
   else if (sideA==sideB!=sideC ||sideA==sideC!=sideB ||sideB==sideC!=sideA) {
-  ("This is an isoceles triangle")
+  alert("This is an isoceles triangle")
   }
   else if (sideA!=sideB!=sideC) {
-  ("This is a scalene triangle")
+  alert("This is a scalene triangle")
   }
 
   }
