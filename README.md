@@ -9,7 +9,7 @@ Triangle tracker is a program that allows user to input length values of an obje
 ### Project Set-Up Instruction
 Open link to program on a device connected to the interenet.Put in three values on the input-text object field and press enter to get an answer
 
-### Bheaviour Driven Development
+### Behaviour Driven Development
 * When a user enters value A, value B and value C.
 * Then the program stores the values of the lengths
 * And checks to see if a triangle can be made.
@@ -21,8 +21,6 @@ Open link to program on a device connected to the interenet.Put in three values 
 
 ### Setup/Installation Requirements
 No Setup requirements.
-### Known Bugs
-no known bugs.
 
 ### Technologies Used
 * HTML5
