@@ -1,4 +1,4 @@
-var triangleTracker = function() {
+ function triangleTracker() {
   var sides =[document.getElemtById("sideA").value,document.getElemtById("sideB").innerHTML.value,document.getElemtById("sideC").innerHTML.value];
 var sideA=parseFloat(sides[0]));
 var sideB=parseFloat(sides[1]));
