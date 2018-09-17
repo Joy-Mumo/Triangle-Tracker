@@ -13,17 +13,17 @@ function triangleTracker() {
   var sideC=parseInt(document.getElementById("sideC").value;
 
 
-  if (sideA===sideB && sideB==sideC) {
-    alert("This is an equilateral triangle")
+  if (sideA==sideB && sideB==sideC) {
+    result.innerHTML="This is an equilateral triangle";
   }
-  else if (sideA===0 || sideB===0 || sideC===0) {
-    alert("This is not a triangle")
+  else if (sideA==0 || sideB==0 || sideC==0) {
+    result.innerHTML="This is not a triangle";
   }
-  else if (sideA===sideB!=sideC ||sideA==sideC!=sideB ||sideB===sideC!=sideA) {
-    alert("This is an isoceles triangle")
+  else if (sideA==sideB!=sideC ||sideA==sideC!=sideB ||sideB==sideC!=sideA) {
+    result.innerHTML="This is an isoceles triangle";
   }
   else if (sideA!=sideB!=sideC) {
-    alert("This is a scalene triangle")
+    result.innerHTML="This is a scalene triangle";
   }
 
 }
