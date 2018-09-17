@@ -16,7 +16,7 @@ console.log(sideC);
   document.getElemtById("sideB").innerHTML= ("This is an equilateral triangle")
   }
   else if (sideA===0 || sideB===0 || sideC===0) {
-document.getElemtById("sideA").innerHTML= ("This is not a triangle")
+document.getElemtById("sideA").innerHTML= ("not a triangle")
 }=
   else if (sideA===sideB!=sideC ||sideA==sideC!=sideB ||sideB===sideC!=sideA) {
   document.getElemtById("sideB").innerHTML=("This is an isoceles triangle")
