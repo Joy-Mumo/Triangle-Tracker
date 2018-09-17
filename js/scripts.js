@@ -1,28 +1,29 @@
- function triangleTracker() {
-  var sides =[document.getElemtById("sideA").value,document.getElemtById("sideB").innerHTML.value,document.getElemtById("sideC").innerHTML.value];
-var sideA=parseFloat(sides[0]));
-var sideB=parseFloat(sides[1]));
-var sideC=parseFloat(sides[2]));
+function triangleTracker() {
 
-console.log(typeof (sideA))
-console.log(sideB);
-console.log(sideC);
-  // var sideA=parseInt(document.getElementById("sideA").value;
-  // var sideB=parseInt(document.getElementById("sideB").value;
-  // var sideC=parseInt(document.getElementById("sideC").value;
+   // var sides =[document.getElementById("sideA").value,document.getElementById("sideB").innerHTML.value,document.getElementById("sideC").innerHTML.value];
+   // var sideA=parseInt(sides[0]));
+   // var sideB=parseInt(sides[1]));
+   // var sideC=parseInt(sides[2]));
+   //
+   // console.log(typeof (sideA))
+   // console.log(sideB);
+   // console.log(sideC);
+   var sideA=parseInt(document.getElementById("sideA").value;
+  var sideB=parseInt(document.getElementById("sideB").value;
+  var sideC=parseInt(document.getElementById("sideC").value;
 
 
-  if (sideA===sideB===sideC) {
-  document.getElemtById("sideB").innerHTML= ("This is an equilateral triangle")
+  if (sideA===sideB && sideB==sideC) {
+    alert("This is an equilateral triangle")
   }
   else if (sideA===0 || sideB===0 || sideC===0) {
-document.getElemtById("sideA").innerHTML= ("This is not a triangle")
-}=
+    alert("This is not a triangle")
+  }
   else if (sideA===sideB!=sideC ||sideA==sideC!=sideB ||sideB===sideC!=sideA) {
-  document.getElemtById("sideB").innerHTML=("This is an isoceles triangle")
+    alert("This is an isoceles triangle")
   }
   else if (sideA!=sideB!=sideC) {
-  document.getElemtById("sideC").innerHTML=("This is a scalene triangle")
+    alert("This is a scalene triangle")
   }
 
-  }
+}

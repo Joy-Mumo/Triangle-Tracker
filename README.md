@@ -14,7 +14,7 @@ Open link to program on a device connected to the interenet.Put in three values 
 * Then the program stores the values of the lengths
 * And checks to see if a triangle can be made.
 * When a triangle is not made
-* The program prints... "not a triangle."
+* The program prints... "THis is not a triangle."
 *  When a triangle is formed
 * The program calculates on what type of triangle is formed
 * Then, program displays result,showing what type of triangle has been formed.
