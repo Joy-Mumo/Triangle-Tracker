@@ -8,22 +8,23 @@ function triangleTracker() {
    // console.log(typeof (sideA))
    // console.log(sideB);
    // console.log(sideC);
-   var sideA=parseInt(document.getElementById("sideA")).value;
+  var sideA=parseInt(document.getElementById("sideA")).value;
   var sideB=parseInt(document.getElementById("sideB")).value;
   var sideC=parseInt(document.getElementById("sideC")).value;
+  var result=document.getElementById("result");
 
 
   if (sideA==sideB && sideB==sideC) {
-    result.innerHTML="This is an equilateral triangle";
+    result.textContent="This is an equilateral triangle";
   }
   else if (sideA==0 || sideB==0 || sideC==0) {
-    result.innerHTML="This is not a triangle";
+    result.textContent="This is not a triangle";
   }
   else if (sideA==sideB!=sideC ||sideA==sideC!=sideB ||sideB==sideC!=sideA) {
-    result.innerHTML="This is an isoceles triangle";
+    result.textContent="This is an isoceles triangle";
   }
   else if (sideA!=sideB!=sideC) {
-    result.innerHTML="This is a scalene triangle";
+    result.textContent="This is a scalene triangle";
   }
 
 }

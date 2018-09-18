@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width">
   <script src="js/scripts.js"></script>
    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
     <h1>Triangle Tracker</h1>
@@ -28,8 +28,10 @@
    </div>
     <div class=design>
       <form  id="triangle">
+        <div id="sideA">
         <label for="sideA">Enter A</label>
-        <input type="text" id="sideA">
+        <input type="text">
+      </div>
         <br>
         <label for="sideB">Enter B</label>
         <input type="text" id="sideB">
@@ -39,9 +41,10 @@
         <br>
         <input type="button" id="submit" value="Try it" onclick="triangleTracker()">
         <br>
+        <p id="result"> </p><br>
       </form>
     </div>
-    <div id="text_where"></div><br>
+    
   </div>
   </body>
 </html>
