@@ -8,9 +8,9 @@ function triangleTracker() {
    // console.log(typeof (sideA))
    // console.log(sideB);
    // console.log(sideC);
-   var sideA=parseInt(document.getElementById("sideA").value;
-  var sideB=parseInt(document.getElementById("sideB").value;
-  var sideC=parseInt(document.getElementById("sideC").value;
+   var sideA=parseInt(document.getElementById("sideA")).value;
+  var sideB=parseInt(document.getElementById("sideB")).value;
+  var sideC=parseInt(document.getElementById("sideC")).value;
 
 
   if (sideA===sideB && sideB==sideC) {
