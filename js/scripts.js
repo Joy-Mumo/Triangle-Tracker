@@ -20,10 +20,10 @@ function triangleTracker() {
   else if (sideA==0 || sideB==0 || sideC==0) {
     result.textContent="This is not a triangle";
   }
-  else if (sideA==sideB!=sideC ||sideA==sideC!=sideB ||sideB==sideC!=sideA) {
+  else if (sideA==sideB && sideB!=sideC ||sideA==sideC && sideB!=sideB ||sideB==sideC && sideC!=sideA) {
     result.textContent="This is an isoceles triangle";
   }
-  else if (sideA!=sideB!=sideC) {
+  else if (sideA!=sideB && sideB!=sideC && sideA!=sideC) {
     result.textContent="This is a scalene triangle";
   }
 
